@@ -1,0 +1,819 @@
+[23-Apr-2021 00:01:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[23-Apr-2021 00:01:32 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[23-Apr-2021 07:01:47 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 4
+[23-Apr-2021 10:36:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 20 and exactly 1 expected in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/post.php:7329
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(20): wp_get_post_parent_id()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#4 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7329
+[23-Apr-2021 10:39:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 22
+[23-Apr-2021 11:54:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 30
+[23-Apr-2021 11:55:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theID() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:30
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 30
+[23-Apr-2021 11:55:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theID() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:30
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 30
+[23-Apr-2021 13:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_head() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:2
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[23-Apr-2021 14:46:36 UTC] PHP Warning:  Use of undefined constant get_footer - assumed 'get_footer' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 16
+[23-Apr-2021 14:46:36 UTC] PHP Stack trace:
+[23-Apr-2021 14:46:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 14:46:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 14:46:36 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 14:46:36 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 14:46:39 UTC] PHP Warning:  Use of undefined constant get_footer - assumed 'get_footer' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 16
+[23-Apr-2021 14:46:39 UTC] PHP Stack trace:
+[23-Apr-2021 14:46:39 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 14:46:39 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 14:46:39 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 14:46:39 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 14:47:20 UTC] PHP Warning:  Use of undefined constant get_footer - assumed 'get_footer' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 11
+[23-Apr-2021 14:47:20 UTC] PHP Stack trace:
+[23-Apr-2021 14:47:20 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 14:47:20 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 14:47:20 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 14:47:20 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 16:22:21 UTC] PHP Warning:  Use of undefined constant the - assumed 'the' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 59
+[23-Apr-2021 16:22:21 UTC] PHP Stack trace:
+[23-Apr-2021 16:22:21 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 16:22:21 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 16:22:21 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 16:22:21 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 16:22:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function title() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:59
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 59
+[23-Apr-2021 17:58:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[23-Apr-2021 18:20:24 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 28
+[23-Apr-2021 18:20:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 28
+[23-Apr-2021 18:20:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 28
+[23-Apr-2021 18:26:03 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 30
+[23-Apr-2021 19:09:03 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 25
+[23-Apr-2021 19:09:03 UTC] PHP Stack trace:
+[23-Apr-2021 19:09:03 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 19:09:03 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 19:09:03 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 19:09:03 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 19:22:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 60
+[23-Apr-2021 19:22:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 60
+[23-Apr-2021 19:23:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[23-Apr-2021 19:23:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[23-Apr-2021 19:23:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_excert() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:60
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 60
+[23-Apr-2021 20:03:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 0 passed in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29 and at least 1 expected in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:79
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(29): the_field()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#4 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 79
+[23-Apr-2021 20:05:42 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 31
+[23-Apr-2021 22:20:43 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 24
+[23-Apr-2021 22:32:52 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[23-Apr-2021 22:32:52 UTC] PHP Stack trace:
+[23-Apr-2021 22:32:52 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:32:52 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:32:52 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:32:52 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 22:32:52 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29
+[23-Apr-2021 22:32:52 UTC] PHP Stack trace:
+[23-Apr-2021 22:32:52 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:32:52 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:32:52 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:32:52 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 22:32:52 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 30
+[23-Apr-2021 22:32:52 UTC] PHP Stack trace:
+[23-Apr-2021 22:32:52 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:32:52 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:32:52 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:32:52 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 22:33:02 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29
+[23-Apr-2021 22:33:02 UTC] PHP Stack trace:
+[23-Apr-2021 22:33:02 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:33:02 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:33:02 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:33:02 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 22:33:02 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 30
+[23-Apr-2021 22:33:02 UTC] PHP Stack trace:
+[23-Apr-2021 22:33:02 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:33:02 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:33:02 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:33:02 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 22:33:02 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29
+[23-Apr-2021 22:33:02 UTC] PHP Stack trace:
+[23-Apr-2021 22:33:02 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:33:02 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:33:02 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:33:02 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 22:33:02 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 30
+[23-Apr-2021 22:33:02 UTC] PHP Stack trace:
+[23-Apr-2021 22:33:02 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:33:02 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:33:02 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:33:02 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 22:33:13 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 30
+[23-Apr-2021 22:33:13 UTC] PHP Stack trace:
+[23-Apr-2021 22:33:13 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:33:13 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:33:13 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:33:13 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[23-Apr-2021 22:33:13 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 30
+[23-Apr-2021 22:33:13 UTC] PHP Stack trace:
+[23-Apr-2021 22:33:13 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[23-Apr-2021 22:33:13 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[23-Apr-2021 22:33:13 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[23-Apr-2021 22:33:13 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[24-Apr-2021 07:08:03 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 15
+[24-Apr-2021 07:09:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php:16
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 16
+[24-Apr-2021 07:15:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 28
+[24-Apr-2021 10:45:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 16
+[24-Apr-2021 10:46:16 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 19
+[24-Apr-2021 10:46:49 UTC] PHP Warning:  Use of undefined constant event - assumed 'event' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 16
+[24-Apr-2021 10:46:49 UTC] PHP Stack trace:
+[24-Apr-2021 10:46:49 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[24-Apr-2021 10:46:49 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[24-Apr-2021 10:46:49 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[24-Apr-2021 10:46:49 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[24-Apr-2021 10:53:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 53
+[24-Apr-2021 10:55:16 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 18
+[24-Apr-2021 16:16:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 44 and at least 2 expected in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:409
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(44): add_action('pre_get_program...')
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-settings.php(528): include('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/chrisste...')
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/chrisste...')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/chriss in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 409
+[24-Apr-2021 16:20:04 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 30
+[24-Apr-2021 16:22:04 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 30
+[25-Apr-2021 10:32:50 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting variable (T_VARIABLE) or '{' or '$' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 25
+[25-Apr-2021 10:53:31 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 27
+[25-Apr-2021 10:53:41 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 27
+[25-Apr-2021 10:53:42 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 27
+[25-Apr-2021 10:53:43 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 27
+[25-Apr-2021 10:53:43 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 27
+[25-Apr-2021 10:53:43 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 27
+[25-Apr-2021 10:53:44 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 27
+[25-Apr-2021 10:55:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 27
+[25-Apr-2021 11:04:26 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 39
+[25-Apr-2021 11:04:26 UTC] PHP Stack trace:
+[25-Apr-2021 11:04:26 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[25-Apr-2021 11:04:26 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[25-Apr-2021 11:04:26 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Apr-2021 11:04:26 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Apr-2021 11:04:26 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 40
+[25-Apr-2021 11:04:26 UTC] PHP Stack trace:
+[25-Apr-2021 11:04:26 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[25-Apr-2021 11:04:26 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[25-Apr-2021 11:04:26 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Apr-2021 11:04:26 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Apr-2021 11:04:26 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 41
+[25-Apr-2021 11:04:26 UTC] PHP Stack trace:
+[25-Apr-2021 11:04:26 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[25-Apr-2021 11:04:26 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[25-Apr-2021 11:04:26 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Apr-2021 11:04:26 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Apr-2021 11:04:39 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 40
+[25-Apr-2021 11:04:39 UTC] PHP Stack trace:
+[25-Apr-2021 11:04:39 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[25-Apr-2021 11:04:39 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[25-Apr-2021 11:04:39 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Apr-2021 11:04:39 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Apr-2021 11:04:39 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 41
+[25-Apr-2021 11:04:39 UTC] PHP Stack trace:
+[25-Apr-2021 11:04:39 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[25-Apr-2021 11:04:39 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[25-Apr-2021 11:04:39 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Apr-2021 11:04:39 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Apr-2021 11:04:54 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 41
+[25-Apr-2021 11:04:54 UTC] PHP Stack trace:
+[25-Apr-2021 11:04:54 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[25-Apr-2021 11:04:54 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[25-Apr-2021 11:04:54 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Apr-2021 11:04:54 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Apr-2021 11:07:35 UTC] PHP Parse error:  syntax error, unexpected 'get_the_ID' (T_STRING), expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 41
+[25-Apr-2021 11:38:51 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 48
+[25-Apr-2021 11:39:02 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 50
+[25-Apr-2021 11:39:04 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 50
+[25-Apr-2021 11:39:10 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 50
+[25-Apr-2021 11:39:11 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 50
+[25-Apr-2021 11:42:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 48
+[25-Apr-2021 16:58:44 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 45
+[25-Apr-2021 16:58:44 UTC] PHP Stack trace:
+[25-Apr-2021 16:58:44 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[25-Apr-2021 16:58:44 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[25-Apr-2021 16:58:44 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Apr-2021 16:58:44 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Apr-2021 16:58:44 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 45
+[25-Apr-2021 16:58:44 UTC] PHP Stack trace:
+[25-Apr-2021 16:58:44 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[25-Apr-2021 16:58:44 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[25-Apr-2021 16:58:44 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[25-Apr-2021 16:58:44 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[25-Apr-2021 17:35:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:47
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 47
+[25-Apr-2021 17:36:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:36:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:36:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:36:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:36:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:36:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:36:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:36:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:37:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:37:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:37:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:37:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:37:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:37:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:46
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 17:43:15 UTC] PHP Parse error:  syntax error, unexpected 'get_header' (T_STRING) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 4
+[25-Apr-2021 17:56:38 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 19
+[25-Apr-2021 18:16:57 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 18:16:57 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 46
+[25-Apr-2021 18:22:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 21 and at least 1 expected in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/media.php:291
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(21): add_image_size()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(292): university_features('')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-settings.php(538): do_action('after_set in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/media.php on line 291
+[25-Apr-2021 18:57:13 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 12
+[25-Apr-2021 18:59:16 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[25-Apr-2021 19:26:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[25-Apr-2021 19:42:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_filed() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:11
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(7): pageBanner(Array)
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#4 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[25-Apr-2021 19:44:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_filed() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:11
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(7): pageBanner(Array)
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#4 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[25-Apr-2021 19:44:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_filed() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:11
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(7): pageBanner(Array)
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#4 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 11
+[26-Apr-2021 07:57:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 35
+[26-Apr-2021 07:58:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 7
+[26-Apr-2021 10:33:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_par() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:39
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 39
+[26-Apr-2021 10:49:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_location-alt' not found or invalid function name in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[26-Apr-2021 10:49:41 UTC] PHP Stack trace:
+[26-Apr-2021 10:49:41 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/options-permalink.php:0
+[26-Apr-2021 10:49:41 UTC] PHP   2. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/options-permalink.php:10
+[26-Apr-2021 10:49:41 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/admin.php:34
+[26-Apr-2021 10:49:41 UTC] PHP   4. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-load.php:37
+[26-Apr-2021 10:49:41 UTC] PHP   5. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-config.php:77
+[26-Apr-2021 10:49:41 UTC] PHP   6. do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-settings.php:560
+[26-Apr-2021 10:49:41 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[26-Apr-2021 10:49:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[26-Apr-2021 10:49:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_location-alt' not found or invalid function name in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[26-Apr-2021 10:49:41 UTC] PHP Stack trace:
+[26-Apr-2021 10:49:41 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[26-Apr-2021 10:49:41 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[26-Apr-2021 10:49:41 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[26-Apr-2021 10:49:41 UTC] PHP   4. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-load.php:37
+[26-Apr-2021 10:49:41 UTC] PHP   5. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-config.php:77
+[26-Apr-2021 10:49:41 UTC] PHP   6. do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-settings.php:560
+[26-Apr-2021 10:49:41 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[26-Apr-2021 10:49:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[26-Apr-2021 10:50:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_location-alt' not found or invalid function name in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 292
+[26-Apr-2021 10:50:41 UTC] PHP Stack trace:
+[26-Apr-2021 10:50:41 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[26-Apr-2021 10:50:41 UTC] PHP   2. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[26-Apr-2021 10:50:41 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-load.php:37
+[26-Apr-2021 10:50:41 UTC] PHP   4. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-config.php:77
+[26-Apr-2021 10:50:41 UTC] PHP   5. do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-settings.php:560
+[26-Apr-2021 10:50:41 UTC] PHP   6. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[26-Apr-2021 10:50:41 UTC] PHP   7. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[26-Apr-2021 11:17:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 88 and at least 2 expected in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:114
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(88): add_filter('acf/fields/goog...')
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-settings.php(528): include('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/chrisste...')
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/chrisste...')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/chriss in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 114
+[26-Apr-2021 11:50:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[26-Apr-2021 11:50:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[26-Apr-2021 11:50:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[26-Apr-2021 11:50:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[26-Apr-2021 11:50:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[26-Apr-2021 11:50:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[26-Apr-2021 11:51:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[26-Apr-2021 11:58:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_type_archive_link() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:9
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', true, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(1): get_header()
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once( in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 9
+[26-Apr-2021 11:58:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function type_archive_link() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:9
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', true, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(1): get_header()
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Use in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 9
+[26-Apr-2021 11:58:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function type_archive_link() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:9
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', true, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php(1): get_header()
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Use in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 9
+[26-Apr-2021 14:31:27 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-campus.php on line 25
+[26-Apr-2021 14:45:22 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-campus.php on line 19
+[26-Apr-2021 15:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php:43
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/chrisste...')
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php(17): require('/Users/chrisste...')
+#3 {main}
+  thrown in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 43
+[26-Apr-2021 16:27:25 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[26-Apr-2021 16:28:56 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 97
+[26-Apr-2021 16:29:18 UTC] PHP Parse error:  syntax error, unexpected 'post_title' (T_STRING), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[26-Apr-2021 16:29:27 UTC] PHP Parse error:  syntax error, unexpected 'post_title' (T_STRING), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[26-Apr-2021 16:29:28 UTC] PHP Parse error:  syntax error, unexpected 'post_title' (T_STRING), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[26-Apr-2021 16:30:20 UTC] PHP Parse error:  syntax error, unexpected 'post_title' (T_STRING), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[26-Apr-2021 16:31:06 UTC] PHP Parse error:  syntax error, unexpected 'post_title' (T_STRING), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[26-Apr-2021 16:31:06 UTC] PHP Parse error:  syntax error, unexpected 'post_title' (T_STRING), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[26-Apr-2021 16:36:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 93
+[26-Apr-2021 16:43:00 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 96
+[26-Apr-2021 16:45:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 95
+[27-Apr-2021 19:36:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function rregister_rest_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:4
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(292): university_custom_rest(Object(WP_REST_Server))
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(521): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(347): rest_get_server()
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(292): rest_api_l in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[27-Apr-2021 19:39:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[27-Apr-2021 19:39:15 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[27-Apr-2021 20:29:47 UTC] PHP Fatal error:  Cannot redeclare universityRegisterSearch() (previously declared in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:3) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 15
+[27-Apr-2021 20:29:47 UTC] PHP Stack trace:
+[27-Apr-2021 20:29:47 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 20:29:47 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 20:29:47 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[27-Apr-2021 20:29:47 UTC] PHP   4. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-load.php:37
+[27-Apr-2021 20:29:47 UTC] PHP   5. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-config.php:77
+[27-Apr-2021 20:29:47 UTC] PHP   6. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-settings.php:528
+[27-Apr-2021 20:30:33 UTC] PHP Fatal error:  Cannot redeclare universityRegisterSearch() (previously declared in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:3) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 15
+[27-Apr-2021 20:30:33 UTC] PHP Stack trace:
+[27-Apr-2021 20:30:33 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[27-Apr-2021 20:30:33 UTC] PHP   2. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[27-Apr-2021 20:30:33 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-load.php:37
+[27-Apr-2021 20:30:33 UTC] PHP   4. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-config.php:77
+[27-Apr-2021 20:30:33 UTC] PHP   5. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-settings.php:528
+[27-Apr-2021 20:46:24 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 22
+[27-Apr-2021 20:59:05 UTC] PHP Parse error:  syntax error, unexpected '$param' (T_VARIABLE), expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 18
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:36 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:36 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1642
+[27-Apr-2021 21:14:36 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:36 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:36 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:36 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:36 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:36 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:36 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:36 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:36 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:36 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:36 UTC] PHP  11. WP_REST_Server->send_headers() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:444
+[27-Apr-2021 21:14:36 UTC] PHP  12. WP_REST_Server->send_header() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1654
+[27-Apr-2021 21:14:36 UTC] PHP  13. header() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1642
+[27-Apr-2021 21:14:47 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 27
+[27-Apr-2021 21:14:47 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:47 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:47 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:47 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:47 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:47 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:47 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:47 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:47 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:47 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:47 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:47 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[27-Apr-2021 21:14:47 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[27-Apr-2021 21:14:47 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[27-Apr-2021 21:14:47 UTC] PHP  14. array_push() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27
+[27-Apr-2021 21:14:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:27) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1642
+[27-Apr-2021 21:14:47 UTC] PHP Stack trace:
+[27-Apr-2021 21:14:47 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[27-Apr-2021 21:14:47 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[27-Apr-2021 21:14:47 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[27-Apr-2021 21:14:47 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[27-Apr-2021 21:14:47 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[27-Apr-2021 21:14:47 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[27-Apr-2021 21:14:47 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 21:14:47 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 21:14:47 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 21:14:47 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[27-Apr-2021 21:14:47 UTC] PHP  11. WP_REST_Server->send_headers() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:444
+[27-Apr-2021 21:14:47 UTC] PHP  12. WP_REST_Server->send_header() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1654
+[27-Apr-2021 21:14:47 UTC] PHP  13. header() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1642
+[28-Apr-2021 14:22:33 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 19
+[28-Apr-2021 14:22:47 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 19
+[28-Apr-2021 16:13:36 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '(' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 82
+[28-Apr-2021 16:13:47 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '(' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 82
+[28-Apr-2021 16:16:29 UTC] PHP Warning:  Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 86
+[28-Apr-2021 16:16:29 UTC] PHP Stack trace:
+[28-Apr-2021 16:16:29 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[28-Apr-2021 16:16:29 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[28-Apr-2021 16:16:29 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[28-Apr-2021 16:16:29 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[28-Apr-2021 16:16:29 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[28-Apr-2021 16:16:29 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[28-Apr-2021 16:16:29 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[28-Apr-2021 16:16:29 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[28-Apr-2021 16:16:29 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[28-Apr-2021 16:16:29 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[28-Apr-2021 16:16:29 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[28-Apr-2021 16:16:29 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[28-Apr-2021 16:16:29 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[28-Apr-2021 16:16:29 UTC] PHP Warning:  Illegal string offset 'id' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 86
+[28-Apr-2021 16:16:29 UTC] PHP Stack trace:
+[28-Apr-2021 16:16:29 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[28-Apr-2021 16:16:29 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[28-Apr-2021 16:16:29 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[28-Apr-2021 16:16:29 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[28-Apr-2021 16:16:29 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[28-Apr-2021 16:16:29 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[28-Apr-2021 16:16:29 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[28-Apr-2021 16:16:29 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[28-Apr-2021 16:16:29 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[28-Apr-2021 16:16:29 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[28-Apr-2021 16:16:29 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[28-Apr-2021 16:16:29 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[28-Apr-2021 16:16:29 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[28-Apr-2021 16:16:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:86) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1642
+[28-Apr-2021 16:16:29 UTC] PHP Stack trace:
+[28-Apr-2021 16:16:29 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[28-Apr-2021 16:16:29 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[28-Apr-2021 16:16:29 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[28-Apr-2021 16:16:29 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[28-Apr-2021 16:16:29 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[28-Apr-2021 16:16:29 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[28-Apr-2021 16:16:29 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[28-Apr-2021 16:16:29 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[28-Apr-2021 16:16:29 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[28-Apr-2021 16:16:29 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[28-Apr-2021 16:16:29 UTC] PHP  11. WP_REST_Server->send_headers() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:444
+[28-Apr-2021 16:16:29 UTC] PHP  12. WP_REST_Server->send_header() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1654
+[28-Apr-2021 16:16:29 UTC] PHP  13. header() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1642
+[28-Apr-2021 16:17:11 UTC] PHP Warning:  Use of undefined constant item - assumed 'item' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 86
+[28-Apr-2021 16:17:11 UTC] PHP Stack trace:
+[28-Apr-2021 16:17:11 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[28-Apr-2021 16:17:11 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[28-Apr-2021 16:17:11 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[28-Apr-2021 16:17:11 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[28-Apr-2021 16:17:11 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[28-Apr-2021 16:17:11 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[28-Apr-2021 16:17:11 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[28-Apr-2021 16:17:11 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[28-Apr-2021 16:17:11 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[28-Apr-2021 16:17:11 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[28-Apr-2021 16:17:11 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[28-Apr-2021 16:17:11 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[28-Apr-2021 16:17:11 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[28-Apr-2021 16:17:11 UTC] PHP Warning:  Illegal string offset 'id' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 86
+[28-Apr-2021 16:17:11 UTC] PHP Stack trace:
+[28-Apr-2021 16:17:11 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[28-Apr-2021 16:17:11 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[28-Apr-2021 16:17:11 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[28-Apr-2021 16:17:11 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[28-Apr-2021 16:17:11 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[28-Apr-2021 16:17:11 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[28-Apr-2021 16:17:11 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[28-Apr-2021 16:17:11 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[28-Apr-2021 16:17:11 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[28-Apr-2021 16:17:11 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[28-Apr-2021 16:17:11 UTC] PHP  11. WP_REST_Server->dispatch() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:412
+[28-Apr-2021 16:17:11 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:985
+[28-Apr-2021 16:17:11 UTC] PHP  13. universitySearchResults() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1139
+[28-Apr-2021 16:17:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:86) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1642
+[28-Apr-2021 16:17:11 UTC] PHP Stack trace:
+[28-Apr-2021 16:17:11 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[28-Apr-2021 16:17:11 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[28-Apr-2021 16:17:11 UTC] PHP   3. wp() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[28-Apr-2021 16:17:11 UTC] PHP   4. WP->main() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/functions.php:1291
+[28-Apr-2021 16:17:11 UTC] PHP   5. WP->parse_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:750
+[28-Apr-2021 16:17:11 UTC] PHP   6. do_action_ref_array() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[28-Apr-2021 16:17:11 UTC] PHP   7. WP_Hook->do_action() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[28-Apr-2021 16:17:11 UTC] PHP   8. WP_Hook->apply_filters() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:316
+[28-Apr-2021 16:17:11 UTC] PHP   9. rest_api_loaded() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:292
+[28-Apr-2021 16:17:11 UTC] PHP  10. WP_REST_Server->serve_request() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:354
+[28-Apr-2021 16:17:11 UTC] PHP  11. WP_REST_Server->send_headers() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:444
+[28-Apr-2021 16:17:11 UTC] PHP  12. WP_REST_Server->send_header() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1654
+[28-Apr-2021 16:17:11 UTC] PHP  13. header() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1642
+[28-Apr-2021 17:52:02 UTC] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 51
+[28-Apr-2021 17:52:20 UTC] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 51
+[28-Apr-2021 17:54:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 53
+[28-Apr-2021 17:54:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 56
+[28-Apr-2021 17:55:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 56
+[28-Apr-2021 17:56:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 56
+[28-Apr-2021 17:56:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 57
+[28-Apr-2021 17:56:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 57
+[28-Apr-2021 17:58:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 57
+[28-Apr-2021 17:58:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 57
