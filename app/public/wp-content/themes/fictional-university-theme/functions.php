@@ -99,7 +99,6 @@ function pageBanner($args = NULL) {
       ));      
     }
   }
-
   add_action('pre_get_posts', 'university_adjust_queries');
 
   // For Google API key 
@@ -107,7 +106,46 @@ function pageBanner($args = NULL) {
     $api['key'] = 'AIzaSyAEdABXm-C0dhstfaqewQoMrD7y3KiVibw';
     return $api;
   }
-
   add_filter('acf/fields/google_map/api', 'universityMapKey');
+
+  // redirect subscriber account out of admin and onto homepage
+  function redirectSubsToFrontend() {
+    $ourCurrentUser = wp_get_current_user();
+    if (count($ourCurrentUser->roles) == 1 AND $ourCurrentUser->roles[0] == 'subscriber') {
+      wp_redirect(site_url('/'));
+      exit;
+    }
+  }
+  add_action('admin_init', 'redirectSubsToFrontend');
+
+  // remove admin bar for Subscriber Account
+  function noSubsAdminBar() {
+    $ourCurrentUser = wp_get_current_user();
+    if (count($ourCurrentUser->roles) == 1 AND $ourCurrentUser->roles[0] == 'subscriber') {
+      add_filter('show_admin_bar', '__return_false', PHP_INT_MAX);
+    }
+  }
+  add_action('wp_loaded', 'noSubsAdminBar');
+
+  // Customize Login Screen
+  function ourHeaderUrl() {
+    return esc_url(site_url('/'));
+  }
+  add_filter('login_headerurl', 'ourHeaderUrl');
+
+
+  // Load custom CSS scripts on login page
+  function ourLoginCSS() {
+    wp_enqueue_style( 'our-main-styles', get_theme_file_uri('/bundled-assets/styles.13d81c5ef3e64cd57228.css'));
+    wp_enqueue_style('custom-font', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');  
+  }
+  add_action('login_enqueue_scripts', 'ourLoginCSS');
+
+
+  // Change login title from Wordpress to custom
+  function ourLoginTitle() {
+    return get_bloginfo('name');
+  }
+  add_filter('login_headertitle', 'ourLoginTitle');
 
 ?>
