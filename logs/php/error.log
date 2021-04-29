@@ -817,3 +817,132 @@ Stack trace:
 [28-Apr-2021 17:56:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 57
 [28-Apr-2021 17:58:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 57
 [28-Apr-2021 17:58:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 57
+[28-Apr-2021 23:00:02 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
+[28-Apr-2021 23:00:02 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
+[28-Apr-2021 23:01:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 23
+[28-Apr-2021 23:01:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 23
+[28-Apr-2021 23:02:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[28-Apr-2021 23:07:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 12
+[28-Apr-2021 23:07:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 12
+[28-Apr-2021 23:23:29 UTC] PHP Parse error:  syntax error, unexpected '.' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php on line 5
+[28-Apr-2021 23:55:06 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[28-Apr-2021 23:55:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function he_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/app/p in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[28-Apr-2021 23:55:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function he_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/app/p in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[28-Apr-2021 23:56:13 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[28-Apr-2021 23:56:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[28-Apr-2021 23:56:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[28-Apr-2021 23:56:30 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[28-Apr-2021 23:56:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[28-Apr-2021 23:59:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:00:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:01:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function he_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/app/p in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:01:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function he_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/app/p in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:04:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:06:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/ in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:07:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/ in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:07:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/ in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:07:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/ in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:07:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/ in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:07:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:5
+Stack trace:
+#0 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(732): require()
+#1 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php(676): load_template('/Users/chrisste...', false, Array)
+#2 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php(15): get_template_part('template-parts/...', 'program')
+#4 /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/chrisste...')
+#5 /Users/chrissteigerwald/Local Sites/fictional-university/ in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 5
+[29-Apr-2021 00:10:38 UTC] PHP Parse error:  syntax error, unexpected 'has_excerpt' (T_STRING) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 7
+[29-Apr-2021 00:10:44 UTC] PHP Parse error:  syntax error, unexpected 'has_excerpt' (T_STRING) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 7
+[29-Apr-2021 00:10:45 UTC] PHP Parse error:  syntax error, unexpected 'has_excerpt' (T_STRING) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 7
+[29-Apr-2021 00:11:02 UTC] PHP Parse error:  syntax error, unexpected 'has_excerpt' (T_STRING) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 7
+[29-Apr-2021 00:11:03 UTC] PHP Parse error:  syntax error, unexpected 'has_excerpt' (T_STRING) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 7
+[29-Apr-2021 00:11:06 UTC] PHP Parse error:  syntax error, unexpected 'has_excerpt' (T_STRING) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 7
+[29-Apr-2021 11:05:21 UTC] PHP Warning:  substr() expects at least 2 parameters, 1 given in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 6
+[29-Apr-2021 11:05:21 UTC] PHP Stack trace:
+[29-Apr-2021 11:05:21 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[29-Apr-2021 11:05:21 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[29-Apr-2021 11:05:21 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[29-Apr-2021 11:05:21 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[29-Apr-2021 11:05:21 UTC] PHP   5. get_template_part() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php:15
+[29-Apr-2021 11:05:21 UTC] PHP   6. locate_template() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php:204
+[29-Apr-2021 11:05:21 UTC] PHP   7. load_template() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[29-Apr-2021 11:05:21 UTC] PHP   8. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php:732
+[29-Apr-2021 11:05:21 UTC] PHP   9. substr() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php:6
+[29-Apr-2021 11:06:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 8
+[29-Apr-2021 11:06:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 8
+[29-Apr-2021 11:08:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 8
+[29-Apr-2021 11:11:02 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 7
+[29-Apr-2021 11:13:22 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 6
+[29-Apr-2021 11:14:02 UTC] PHP Warning:  Use of undefined constant hacked - assumed 'hacked' (this will throw an Error in a future version of PHP) in /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/template-parts/content-program.php on line 11
+[29-Apr-2021 11:14:02 UTC] PHP Stack trace:
+[29-Apr-2021 11:14:02 UTC] PHP   1. {main}() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:0
+[29-Apr-2021 11:14:02 UTC] PHP   2. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/index.php:17
+[29-Apr-2021 11:14:02 UTC] PHP   3. require_once() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[29-Apr-2021 11:14:02 UTC] PHP   4. include() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[29-Apr-2021 11:14:02 UTC] PHP   5. get_template_part() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php:15
+[29-Apr-2021 11:14:02 UTC] PHP   6. locate_template() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/general-template.php:204
+[29-Apr-2021 11:14:02 UTC] PHP   7. load_template() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[29-Apr-2021 11:14:02 UTC] PHP   8. require() /Users/chrissteigerwald/Local Sites/fictional-university/app/public/wp-includes/template.php:732
